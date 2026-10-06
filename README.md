@@ -1,6 +1,6 @@
 # Dolmario AI – Grußkarten und Bilder animieren
 
-Zwei verständliche lokale ComfyUI-Anleitungen. Beginne mit einem Bild, dann mit einer Animation. **Die neuen vollständigen Tutorial-Filme werden noch produziert. Die kleinen 46/47-Filme sind nur deutsche Formatproben.**
+Zwei verständliche lokale ComfyUI-Anleitungen. Beginne mit einem Bild, dann mit einer Animation. **Die vier vollständigen Tutorial-Fassungen (DE/EN) sind lokal fertig und technisch geprüft. YouTube-Links sind noch nicht eingetragen. Die kleinen 46/47-Filme bleiben separate deutsche Formatproben.**
 
 | Aufgabe / Task | Direktdownload / Download | Anleitung / Guide |
 |---|---|---|
@@ -26,3 +26,17 @@ Der erste Kartenlauf zeigt auch einen echten Namensfehler. Bildqualität, Schrei
 
 
 Aktuelles Paket: **v2** mit gültigen eindeutigen Workflow-IDs, bereinigten optionalen Slot-Metadaten und gepinnten offiziellen Modelldownloads. Die zuerst veröffentlichten ZIPs bleiben als v1 erhalten. [UI-Feld-/Verbindungsprüfung](UI-VALIDIERUNG.json). Frischer UI-Reimport und neue Inferenz weiterhin separat offen.
+
+
+## Filmfassungen / Tutorial editions
+
+| Tutorial | Sprache / Language | Dauer / Duration |
+|---|---|---|
+| Grußkarten / Cards | DE | 7:40 |
+| Grußkarten / Cards | EN | 7:38 |
+| Animation | DE | 8:06 |
+| Animation | EN | 7:45 |
+
+Neue MOSS-s44-Stimme: kurze deutsche und englische Probe vom Nutzer bestätigt. Vollständiges Endhören der Filme bleibt offen. Große eigene Node-/Parameter-Erklärungen, fiktive Moderatorin als Bildfigur ohne Lip-Sync und DOLMARIO-AI-Lama. Vorhandene echte Ergebnisbilder und Originalclip; keine neue Modellinferenz oder neue Live-Bildschirmaufnahme behauptet.
+
+The four full tutorial movies were produced locally; their YouTube links have not been added. Guides and downloads above are public now. Full human listening review is still pending. The voice samples were approved. Practical discrete Radeon/Mac testing and fresh UI reimport remain open.

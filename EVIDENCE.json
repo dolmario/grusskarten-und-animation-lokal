@@ -1,1 +1,56 @@
-{"prepared_utc":"2026-10-06T18:46:24.004297+00:00","card_original_api_sha256":"f959b841a8c4f94dcd4c20478ff6ddf9cd4f80707f7b804da04cf1fae1a16ac4","card_archived_execution":"success","animation_original_api_sha256":"bc0a9f2d00a0617a4cfe60dabd8794e91b75a3b687904cb84b2b09e7a9ad0c63","animation_input_sha256":"de602255e7a8837ccdd26a6084d20344ffa036b069699260d1227429333ce352","new_ui_static_api_roundtrip":"passed","new_ui_fresh_browser_reload":"pending","new_model_inference":"not performed","amd_radeon_discrete":"not tested","mac":"not tested","english_prompt_output":"not executed","video_production":"pending; old 46/47 are short German design pilots only","private_inputs_included":false,"model_weights_included":false,"ui_field_and_port_schema":"passed; UUID/nullable metadata corrected in v2","official_model_metadata":"verified; versions pinned; no weights download"}
+{
+  "prepared_utc": "2026-10-06T18:46:24.004297+00:00",
+  "card_original_api_sha256": "f959b841a8c4f94dcd4c20478ff6ddf9cd4f80707f7b804da04cf1fae1a16ac4",
+  "card_archived_execution": "success",
+  "animation_original_api_sha256": "bc0a9f2d00a0617a4cfe60dabd8794e91b75a3b687904cb84b2b09e7a9ad0c63",
+  "animation_input_sha256": "de602255e7a8837ccdd26a6084d20344ffa036b069699260d1227429333ce352",
+  "new_ui_static_api_roundtrip": "passed",
+  "new_ui_fresh_browser_reload": "pending",
+  "new_model_inference": "not performed",
+  "amd_radeon_discrete": "not tested",
+  "mac": "not tested",
+  "english_prompt_output": "not executed",
+  "video_production": "four complete local DE/EN tutorial movies, technical decoding passed",
+  "private_inputs_included": false,
+  "model_weights_included": false,
+  "ui_field_and_port_schema": "passed; UUID/nullable metadata corrected in v2",
+  "official_model_metadata": "verified; versions pinned; no weights download",
+  "tutorial_movies": [
+    {
+      "task": "card",
+      "language": "de",
+      "seconds": 460.164,
+      "sha256": "cc6c5ed4458c09c300491991f01b51936e776e0551f4c3b7493e19b97b823b0e",
+      "technical_decode": "passed",
+      "full_human_listening": "pending"
+    },
+    {
+      "task": "card",
+      "language": "en",
+      "seconds": 458.237333,
+      "sha256": "81e57c798ac637db60f4e47ef4731ae9596ed3bd1dd181b62e415c5594d31a56",
+      "technical_decode": "passed",
+      "full_human_listening": "pending"
+    },
+    {
+      "task": "animation",
+      "language": "de",
+      "seconds": 486.902667,
+      "sha256": "cdb3e64703bd060a935209b6adc11cfe56b1e511f0cf89d6c75d39922d5ea430",
+      "technical_decode": "passed",
+      "full_human_listening": "pending"
+    },
+    {
+      "task": "animation",
+      "language": "en",
+      "seconds": 465.310667,
+      "sha256": "2ceaea157268a887f64db2d1ec59c919d7e8df9883a9ff6ba86dc546229f5c11",
+      "technical_decode": "passed",
+      "full_human_listening": "pending"
+    }
+  ],
+  "short_english_voice_sample": "user approved: Ja, passt",
+  "complete_movie_listening": "pending",
+  "video_publication": "No YouTube upload or Studio changes performed",
+  "visual_composition": "Own readable API-node/parameter explanations; existing genuine image outputs and original looped clip; fictional static presenter; no lip sync"
+}

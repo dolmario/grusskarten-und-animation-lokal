@@ -1,0 +1,16 @@
+# Your first local AI greeting card
+
+1. Click **Greeting cards: download kit** on the repository home page. Save and fully extract the ZIP. Open START-EN.md. Do not import files directly from inside the ZIP. The kit contains no model weights.
+2. Open installation/01-start-EN.md and follow the route for your actual computer. Download only the three **card** model files in installation/MODELS.json. Use FLUX.2 Klein **4B Distilled**, not Base, 9B or Dev.
+3. Drag `workflows/01-grusskarte-klein4.ui.json` onto the ComfyUI canvas, or use Workflow → Open. `.api.json` is technical reference, not the beginner import. All connections are provided.
+4. Check UNETLoader = flux-2-klein-4b-fp8.safetensors; CLIPLoader = qwen_3_4b.safetensors, type flux2; VAELoader = flux2-vae.safetensors. Missing filenames mean paths/extensions need checking; restart ComfyUI if necessary.
+5. In **CLIPTextEncode · 4**, edit the scene and the exact quoted greeting. The original birthday prompt is in prompts/01-geburtstag.txt. It asks for the German name Werner and two short lines. For an English card, replace the quoted text yourself; this changes the example and is not a previously tested English output.
+6. Keep both size nodes at 1088 × 1088, steps four, CFG one, sampler euler, seed eleven, batch size one and control_after_generate fixed. The prompt says 1080 but actual node settings determine 1088. If changing dimensions, change both Flux2Scheduler and EmptyFlux2LatentImage.
+7. Click Run / Queue Prompt once and wait for completion. Do not enqueue repeated copies. No runtime is promised for your computer.
+8. The final **SaveImage · 13** uses prefix karte_klein_geburtstag-1x1_11. Find the actual PNG in the output directory / output library of your active installation. Use the preview's Save Image command or download button as available. Copy the PNG into your own results folder; keep more than a screenshot.
+9. Inspect every letter at full size. The supplied Klein preview actually says Wermer, despite a successful run. The Qwen preview gets Werner right but spells Gutte instead of Gute; it is also faulty and comes from a different model. Retry or generate artwork without lettering and add text in your usual editor; automatic spelling correction is not part of this workflow.
+10. Change the seed for a variation; change one setting at a time for comparisons. Save prompt, workflow, seed and output PNG together. This card can be loaded in part two. PNG does not automatically mean transparency.
+
+Troubleshooting: check model folders/extensions and file sizes; an HTML login page is not weights. Missing nodes require the matching ComfyUI version/startup-log check, not arbitrary custom-node installation. For memory errors stop concurrent AI work, use batch one and try matching smaller dimensions. Radeon/Mac dtype errors require the separate platform guide.
+
+Evidence: archived API/history records a successful Strix Halo test. The new beginner UI was reconstructed from real exported nodes and statically round-trip checked against that API; fresh UI reload and inference remain separate open checks. Optional Qwen UI files had earlier import/reimport checks. No Mac or separate Radeon execution is claimed.

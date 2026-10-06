@@ -1,0 +1,16 @@
+# Animate an existing image locally
+
+1. Download and fully extract the animation ZIP. Use LTX-2.5 **Distilled**, not Dev. Open a working local ComfyUI installation. Read installation/01-start-EN.md; separate Radeon and Mac execution remain untested.
+2. Download the five **animation** files listed in installation/MODELS.json: diffusion model, Gemma encoder, video VAE, audio VAE and spatial upscaler. The internal audio branch is part of this archived graph, but the exported video receives no audio stream. No optional prompt enhancer is required. Obtain your own Hugging Face access and check the vendor's conditions. Model weights are not included.
+3. Drag `workflows/01-archivfoto-ltx25.ui.json` onto the canvas. The API file is technical reference. Both calculation stages and export connections are already supplied.
+4. In **LoadImage · 1**, click Upload/choose file and select `input/07-schmied-1850-1860_seed11.png`. It is an existing AI-colourised interpretation of an archival image, not a private family photograph. Your card from part one can be a different input for a new experiment. Check rights for your own material.
+5. **CLIPTextEncode · 5** contains the actual original test prompt. The longer restrained-motion proposal in prompts/02-ruhige-bewegung-vorschlag.txt has not been tested. Request one small movement and a fixed camera. Preservation instructions cannot guarantee identity, object or lettering stability.
+6. Check UNETLoader · 7 (Distilled), CLIPLoader · 4 (Gemma, ltxv), VAELoader · 8 (video), · 9 (audio) and LatentUpscaleModelLoader · 21. Use exact filenames, not similarly named LTX-2.0 or 2.3 files.
+7. Keep original parameters for your first attempt; exact values are supplied in PARAMETERS.json. The first stage is smaller, the second spatially upscales it. Approximate seconds equal frames divided by FPS. Manual sigma schedules and both CFG branches belong to Distilled, not Dev. When changing length, update both video length and audio frames; keep Conditioning, Audio and CreateVideo FPS consistent.
+8. Click Run / Queue Prompt once. Video is more demanding than a card; no time guarantee. Record complete memory errors and hardware rather than blindly enqueuing retries.
+9. **SaveVideo · 33** writes MP4/h264 under its relative filename prefix inside the active output folder/library. Open the actual MP4 in a player and save it with input PNG, prompt and workflow.
+10. Inspect beginning, middle and end: face, hands, hammer, horseshoe, borders and background. For cards check every letter throughout the clip. Technical completion does not establish image quality. Morphing, unwanted zoom and spelling errors occur in the archived tests. Animation is an AI interpretation, not historical footage.
+
+Troubleshooting: missing nodes require matching versions/startup logs; missing models require correct filenames, folders and gated-download access. HTML login pages are not weights. For memory issues remove concurrent model workloads and adjust coupled size/length values carefully. Dev approximations are not official validated Dev workflows.
+
+Evidence: original API and output clip come from the archived Strix Halo test. New UI is statically round-trip checked against that API; fresh UI reload and inference remain open. NVIDIA additions belong to separate archived tests. No new Radeon or Mac run is claimed.

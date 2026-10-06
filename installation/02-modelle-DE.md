@@ -24,3 +24,8 @@ Für die erste Grußkarte nur die drei Zeilen **card** laden: zusammen 12,45 GB 
 LTX erfordert derzeit einen Hugging-Face-Zugang und eigene Zustimmung zu den Anbieterbedingungen. Dieser Download wird nicht stellvertretend freigeschaltet. Der Prompt-Enhancer ist im angebotenen Testgraph nicht erforderlich. Die Distilled- und Dev-Dateien niemals einfach austauschen. Die Parameter gehören zur Modellvariante.
 
 Mac: Dieses archivierte FP8/INT8-Paket ist keine getestete MPS-Variante. Siehe `04-mac-DE.md`.
+
+
+## Nachtrag: eindeutige Versionen und Größen
+
+MODELS.json enthält jetzt fest gepinnte Anbieterrevisionen, SHA256 und Größen für jede Datei. Die drei Kartenmodelle passen zu den archivierten Hashes. Die fünf LTX-Dateien sind zusammen 39.71 GB Download. LTX-Hashes stammen aus aktuellen Anbieter-Metadaten, nicht aus einer neuen Hashmessung der alten lokalen Testgewichte. Alle Dateinamen am 06.10.2026 beim offiziellen Anbieter gefunden; Gewichte nicht neu geladen.

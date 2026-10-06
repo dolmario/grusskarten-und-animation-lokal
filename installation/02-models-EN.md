@@ -9,3 +9,8 @@ Optional read-only check: `python werkzeuge/pruefe_modelle.py PATH_TO_COMFYUI`. 
 LTX downloads currently require your own Hugging Face access and acceptance of the vendor's terms. Do not swap Distilled for Dev without its matching workflow. This graph does not require the optional prompt enhancer.
 
 The archived FP8/INT8 setup is not a validated Mac/MPS setup. Read 04-mac-EN.md before downloading.
+
+
+## Pinned versions and sizes
+
+MODELS.json now pins vendor revisions and lists file sizes and SHA256 values. The three card files match archived hashes. The five LTX files total 39.71 GB. LTX hashes are current vendor metadata, not a freshly measured hash of old local test weights. Filenames were verified on the official provider on 2026-10-06 without downloading weights.

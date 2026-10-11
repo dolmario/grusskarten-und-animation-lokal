@@ -40,5 +40,25 @@
       "seconds": 5.041667
     }
   ],
-  "public_download_execution": false
+  "public_download_execution": true,
+  "public_source_commit": "4e73c7afee284930f50c6c4e6ac8275e858dc9cb",
+  "public_test_archive_sha256": "ac24419850c0b3fc2eb7473f75212809cbc030cc2a77a7c7b669081b56fb7f99",
+  "public_native_export": {
+    "message": "Happy Birthday!",
+    "position": "top",
+    "font_size": 96,
+    "sha256": "431fef862d25fed3975dc40c7d0ab004efc07ed47143796de6034716ad8ec214",
+    "dimensions": [
+      1280,
+      720
+    ],
+    "frames": 121,
+    "fps": 24,
+    "full_decode_passed": true
+  },
+  "tested_source_files": {
+    "card_studio.py": "cc37193b9a79a39f60eae6f8fecfd0f28932a13a9d29b12779e2176ea4a63d7a",
+    "requirements.txt": "41b54a6fb2918667ca47a61d73b522629d84490f3d78f0f20b21135faba10d35",
+    "example/SOURCE.mp4": "69f3bc18ecd0254f6574bd3f007077e9e3cd5289a254d5b212280aa445599396"
+  }
 }

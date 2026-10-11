@@ -1,6 +1,6 @@
 {
   "package": "MOVING-CARD-KIT.zip",
-  "updated_at": "2026-10-11T02:50:01.895861+02:00",
+  "updated_at": "2026-10-11T02:52:28.514817+02:00",
   "files": {
     "card_studio.py": "cc37193b9a79a39f60eae6f8fecfd0f28932a13a9d29b12779e2176ea4a63d7a",
     "CONDITIONING.json": "75458cf68f75b8e3b9da22940a67028786ac40a233fd74a43dbd287597c3b87a",
@@ -10,7 +10,7 @@
     "requirements.txt": "41b54a6fb2918667ca47a61d73b522629d84490f3d78f0f20b21135faba10d35",
     "SETUP-WINDOWS-AMD.md": "828bc86ce466d3ce71e28fb411f02a8ee81c66b43f7b428ba7696ddfc68ff1ea",
     "START-DE.md": "bcf554196a88e40ee1064e1075c08bbf5023aee6f585a33946d4271a260f192a",
-    "VALIDATION.json": "cc218db3bea0364ea23ca5e1e5278e28affa9c6e4d8c2489b5177ee26bc61038",
+    "VALIDATION.json": "3faa52bfd41acbafdc9f5b9d332078ac24740af29fe5b7c1519d5f5f39d156ce",
     "embeddings/first-clip-negative.safetensors": "3b3e1f2164cd3683fd0375abaa426b79ab38512c574342e0c4c3e099c7059ebc",
     "embeddings/first-clip-positive.safetensors": "88c8dc032780c58bf88536db49ed7b9777a013ffc187edf2c8c3a8a9d25cd6e9",
     "example/CARD-BIRTHDAY.mp4": "431fef862d25fed3975dc40c7d0ab004efc07ed47143796de6034716ad8ec214",

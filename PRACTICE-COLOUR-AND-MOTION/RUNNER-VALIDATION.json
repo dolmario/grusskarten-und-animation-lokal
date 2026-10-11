@@ -1,0 +1,45 @@
+{
+  "downloaded_zip_sha256": "cbce446e5d8af47718a2ca9383634c7e2f5bbd8dc1daf0a21a4db93557e9ca02",
+  "tested_source_commit": "6c11c960743457d9b824c8d65c85e8cdeda461ad",
+  "actual_separate_process_stages_completed": true,
+  "whole_clip_decoded": true,
+  "clip_dimensions": [
+    1280,
+    704
+  ],
+  "clip_frames": 121,
+  "clip_fps": 24,
+  "colour_size": [
+    1536,
+    864
+  ],
+  "native_colour_pixels_identical": true,
+  "public_colour_sha256": "2cb06a6280b995e47f90d518bbaa3364a68fb50c7fd7772ea4818365d54a3e57",
+  "public_clip_sha256": "2269b9f4b64adc0df96eb25c5d502cf127ceaabbb3ea7a2580202f278ebfc1a2",
+  "whole_human_listening": false,
+  "fresh_driver_install": false,
+  "existing_comfyui_installation": true,
+  "all_eight_model_sha256_verified": true,
+  "executable_source_hashes": {
+    "run_colour_motion.py": "02cb969dd2a36cbe31715d3cb678ebc65adb2d0f114b76a57f78d99c84a055e8",
+    "run_example.py": "253af4efe87b03a484f4be8aca14abf842255111bcea3d1ca50cfbb22cbbd11c",
+    "MODELS.json": "55900563c99f9c4ddffccd16cf75c79968c4c894421f333aa7e8d84a348ff030",
+    "CONDITIONING.json": "75458cf68f75b8e3b9da22940a67028786ac40a233fd74a43dbd287597c3b87a",
+    "workflows/01-COLOUR.api.json": "61857ff08aff0c9f43832dc0608938826004975392fb2b26764056d353daeef3",
+    "workflows/02-ANIMATE.api.json": "37dab689f9dc577f3abbef5f51eb6b20361494ab28b8fa05164e734c5dd8d301"
+  },
+  "stages": [
+    {
+      "name": "01-colour",
+      "seconds": 43.64100000000326,
+      "minimum_available_windows_ram_gib": 8.87689208984375,
+      "owned_process_stopped": true
+    },
+    {
+      "name": "02-motion",
+      "seconds": 377.31200000000536,
+      "minimum_available_windows_ram_gib": 0.11078643798828125,
+      "owned_process_stopped": true
+    }
+  ]
+}

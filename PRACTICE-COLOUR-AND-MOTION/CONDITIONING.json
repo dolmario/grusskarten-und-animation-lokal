@@ -1,0 +1,14 @@
+{
+  "files": [
+    {
+      "file": "first-clip-negative.safetensors",
+      "sha256": "3b3e1f2164cd3683fd0375abaa426b79ab38512c574342e0c4c3e099c7059ebc"
+    },
+    {
+      "file": "first-clip-positive.safetensors",
+      "sha256": "88c8dc032780c58bf88536db49ed7b9777a013ffc187edf2c8c3a8a9d25cd6e9"
+    }
+  ],
+  "motion_text": "A slow cinematic push forward over the copper roofs of a baroque steampunk town at sunrise. Thin steam drifts gently from the chimneys. Buildings remain stable, realistic warm light, subtle motion, no cuts, no added text.",
+  "provenance": "Previously executed and hash-bound Gemma prompt stage from our ComfyUI image-to-clip example. Same motion words, new colour PNG."
+}

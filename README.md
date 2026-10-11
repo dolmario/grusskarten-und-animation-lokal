@@ -16,6 +16,12 @@ The runner uses separate owned image/video processes and a new output folder. Ou
 
 [Native colour record](PRACTICE-COLOUR-AND-MOTION/NATIVE-COLOUR-VALIDATION.json) · [Native motion record](PRACTICE-COLOUR-AND-MOTION/NATIVE-MOTION-VALIDATION.json) · [Manifest](PRACTICE-COLOUR-AND-MOTION/MANIFEST.json)
 
+## Add a fixed greeting to the moving clip
+
+**[Download the moving-card tool](downloads/MOVING-CARD-KIT.zip)** · [English setup](PRACTICE-MOVING-CARD/README.md) · [Deutsch](PRACTICE-MOVING-CARD/START-DE.md)
+
+Type the message, choose top or bottom and export MP4 in the local browser tool. Python/Pillow draw the fixed text layer; FFmpeg combines it with the recorded clip. Both real card examples are included. Changing the message reuses the same movement. The supplied ComfyUI graph and model table show how the source clip was generated.
+
 ## Previous greeting-card and animation packages
 
 [Greeting-card download](downloads/01-grusskarten-v2.zip) · [Animation download](downloads/02-animation-v2.zip) · [Previous guide](README-BEFORE-COLOUR-PRACTICE.md). Earlier files are preserved.

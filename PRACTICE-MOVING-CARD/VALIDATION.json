@@ -1,0 +1,44 @@
+{
+  "actual_native_browser_exports": 2,
+  "same_source_clip_sha256": "69f3bc18ecd0254f6574bd3f007077e9e3cd5289a254d5b212280aa445599396",
+  "model_generation_repeated": false,
+  "source_generation_proof": "07-Colourise-Animate-EN/NATIVE-MOTION-PRUEFUNG.json",
+  "fixed_png_overlay": true,
+  "browser_download_sha256_matched": true,
+  "pillow_version": "12.3.0",
+  "fresh_venv_pillow_install": true,
+  "system_python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "ffmpeg_already_installed": true,
+  "whole_human_listening": false,
+  "exports": [
+    {
+      "message": "Alles Gute!",
+      "position": "bottom",
+      "font_size": 80,
+      "sha256": "d857b9f48559d3b355a6d063ca361be2c8d6f9eaa314e6f61c6fae787188e56c",
+      "full_decode_passed": true,
+      "frames": 121,
+      "fps": 24,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "seconds": 5.041667
+    },
+    {
+      "message": "Happy Birthday!",
+      "position": "top",
+      "font_size": 96,
+      "sha256": "431fef862d25fed3975dc40c7d0ab004efc07ed47143796de6034716ad8ec214",
+      "full_decode_passed": true,
+      "frames": 121,
+      "fps": 24,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "seconds": 5.041667
+    }
+  ],
+  "public_download_execution": false
+}

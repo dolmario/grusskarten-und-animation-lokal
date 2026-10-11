@@ -1,0 +1,27 @@
+{
+  "package": "COLOUR-AND-MOTION-KIT.zip",
+  "updated_at": "2026-10-11T02:13:01.241204+02:00",
+  "files": {
+    "CONDITIONING.json": "75458cf68f75b8e3b9da22940a67028786ac40a233fd74a43dbd287597c3b87a",
+    "MODEL-FOLDERS.md": "8035cb4a1bb8cfd62693e00043fbca3f4d3a23fb3326253987d5fe8a25feea90",
+    "MODELS.json": "55900563c99f9c4ddffccd16cf75c79968c4c894421f333aa7e8d84a348ff030",
+    "NATIVE-COLOUR-VALIDATION.json": "bf47813e0a6fdc9110e695aa83c3482f5dde1acf8bdbedbd4e9502d8e7b58453",
+    "NATIVE-MOTION-VALIDATION.json": "9751cca0a9f0b97a6557d5016f7874b472a1aa16f4741002b1dad5b834faecc0",
+    "README.md": "6a431b2c905c8931fbeb56b22b467481492250dd1e89e0ef1fb7d2542df4aac4",
+    "run_colour_motion.py": "02cb969dd2a36cbe31715d3cb678ebc65adb2d0f114b76a57f78d99c84a055e8",
+    "run_example.py": "253af4efe87b03a484f4be8aca14abf842255111bcea3d1ca50cfbb22cbbd11c",
+    "SETUP-WINDOWS-AMD.md": "828bc86ce466d3ce71e28fb411f02a8ee81c66b43f7b428ba7696ddfc68ff1ea",
+    "START-DE.md": "af0b60bc7dc4d2fead4ebf6d201c020e0c264e36d3120e364aa47ae397fc0d99",
+    "embeddings/first-clip-negative.safetensors": "3b3e1f2164cd3683fd0375abaa426b79ab38512c574342e0c4c3e099c7059ebc",
+    "embeddings/first-clip-positive.safetensors": "88c8dc032780c58bf88536db49ed7b9777a013ffc187edf2c8c3a8a9d25cd6e9",
+    "example/ANIMATED.mp4": "69f3bc18ecd0254f6574bd3f007077e9e3cd5289a254d5b212280aa445599396",
+    "example/COLORIZED.png": "604a924d1b4ab104230c4d75e96c1ca89f4602b0f81de68ad5cd9e6cd71a1635",
+    "example/GRAYSCALE.png": "64653b1d71627e81e79db1fe274dbfdedc3e6e7774cb5635b5678a58d3f4b9a1",
+    "workflows/01-COLOUR.api.json": "61857ff08aff0c9f43832dc0608938826004975392fb2b26764056d353daeef3",
+    "workflows/01-COLOUR.workflow.json": "007424b58951616a1f9478a672e90662092b2f6045a44a14ae0fad9d7d691a41",
+    "workflows/02-ANIMATE.api.json": "37dab689f9dc577f3abbef5f51eb6b20361494ab28b8fa05164e734c5dd8d301",
+    "workflows/02-ANIMATE.workflow.json": "bc8284d211a488cca0f7cce1e14634f6aa33f48484b578287ef90834f4ae7de8",
+    "workflows/03-SAVE-MOTION-PROMPTS.api.json": "3819aafdf822106b73cf24a06c9770685430d7f26ada1a1bde1cb36117d81f05",
+    "workflows/03-SAVE-MOTION-PROMPTS.workflow.json": "5cf0bc0dd949776f7ae1426a9c44862bde74231fe9d4f551e0cec62bf1670ef8"
+  }
+}

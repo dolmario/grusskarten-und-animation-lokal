@@ -15,6 +15,18 @@ Das Beispielfoto in `beispiel/` ist KI-erzeugt und zeigt keine realen Personen.
 - RTX 3090 Ti: Clip 832x1088 in etwa 75 s mit zweiter Stufe (`ti-workflow/`, ComfyUI-Vorlage `video_ltx2_5_i2v` als API-Workflow).
 - Andere Grafikkarten haben wir nicht getestet.
 
+## Modell-Downloads (alle kostenlos, Lizenz jeweils lesen)
+
+- ComfyUI ab 0.41: https://github.com/comfyanonymous/ComfyUI
+- FLUX 3 Klein (erfindet das alte Foto, Lizenzfreigabe auf Hugging Face nötig): https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy
+- FLUX.2 Klein 4B fp8 (Farbe, Apache 2.0): https://huggingface.co/black-forest-labs/FLUX.2-klein-4b-fp8
+- Textencoder `qwen_3_4b` und VAE: https://huggingface.co/Comfy-Org/vae-text-encorder-for-flux-klein-4b und https://huggingface.co/Comfy-Org/flux2-dev (Datei `flux2-vae.safetensors`)
+- LTX-2.5 (Bewegung, Zugang auf Hugging Face anfordern, LTX-Community-Lizenz): https://huggingface.co/Lightricks/LTX-2.5 mit `ltx-2.5-22b-distilled-transformer-comfy-int8-convrot`, `gemma4-12b-with-proj-ltx-2.5-comfy-int8-convrot`, `ltx-2.5-video-vae-bf16`, `ltx-2.5-audio-vae-bf16`, `ltx-2.5-latent-spatial-upscaler-x2-bf16-1.0`
+- Genaue Dateinamen, Größen und Prüfsummen: `ti-workflow/modelle.json`
+
+## Model downloads (all free, read each licence)
+
+The same links as above: ComfyUI 0.41+, FLUX 3 Klein (licence acceptance on Hugging Face), FLUX.2 Klein 4B fp8 (Apache 2.0) with `qwen_3_4b` text encoder and `flux2-vae`, LTX-2.5 (request access on Hugging Face, LTX community licence). Exact file names, sizes and checksums are in `ti-workflow/modelle.json`.
 ## Dateien
 
 | Datei | Inhalt |
